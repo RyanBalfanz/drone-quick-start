@@ -1,6 +1,4 @@
 build:
-  image: golang
+  image: python:3.5.1-alpine
   commands:
-    - go get
-    - go build
-    - go test
+    - python hello.py
