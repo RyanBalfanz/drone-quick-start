@@ -1,4 +1,5 @@
 build:
   image: python:3.5.1-alpine
   commands:
+    - pip install -r requirements.txt --use-mirrors
     - python hello.py
